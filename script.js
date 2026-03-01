@@ -4,8 +4,9 @@ const yearEl = document.getElementById('year');
 
 if (navToggle && nav) {
   navToggle.addEventListener('click', () => {
-    nav.classList.toggle('is-open');
-  });
+  const isOpen = nav.classList.toggle('is-open');
+  navToggle.setAttribute('aria-expanded', isOpen);
+});
 
   nav.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => nav.classList.remove('is-open'));

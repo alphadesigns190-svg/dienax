@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DIENAX ENGINE OIL | Performance Lubricants</title>
+  <!-- <link rel="icon" type="image/png" href="assets/logo.png"> -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
   <meta name="description" content="DIENAX ENGINE OIL delivers advanced lubrication technology for passenger cars, heavy-duty trucks, and industrial engines." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,31 +13,55 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <!-- HEADER -->
   <header class="site-header" id="top">
     <div class="container nav-wrap">
+
       <a href="#top" class="logo">DIENAX <span>ENGINE OIL</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
-      <nav class="main-nav" aria-label="Main navigation">
+
+      <!-- Mobile Toggle -->
+      <button 
+        class="nav-toggle" 
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="main-navigation">
+        ☰
+      </button>
+
+      <nav 
+        class="main-nav" 
+        id="main-navigation"
+        aria-label="Main navigation">
+
         <a href="#about">About</a>
         <a href="#products">Products</a>
         <a href="#quality">Quality</a>
         <a href="#contact">Contact</a>
+
       </nav>
+
     </div>
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Trusted Lubrication Solutions</p>
           <h1>Power Every Journey With DIENAX ENGINE OIL</h1>
-          <p class="lead">High-performance formulations engineered for heat stability, wear protection, and long engine life across demanding road and industrial conditions.</p>
+          <p class="lead">
+            High-performance formulations engineered for heat stability,
+            wear protection, and long engine life across demanding road and industrial conditions.
+          </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#products">Explore Products</a>
             <a class="btn btn-outline" href="#contact">Request Quote</a>
           </div>
         </div>
+
         <div class="hero-card">
           <h2>Why DIENAX</h2>
           <ul>
@@ -48,13 +74,22 @@
       <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="section">
       <div class="container two-col">
         <div>
           <h2>About DIENAX ENGINE OIL</h2>
-          <p>DIENAX ENGINE OIL is focused on delivering reliable lubrication products for automotive fleets, transport operators, workshops, and industrial users. Our product development emphasizes durability, thermal control, and efficiency in real-world operation.</p>
-          <p>From city traffic to heavy-load logistics, DIENAX helps reduce friction losses and supports consistent engine protection over extended drain intervals.</p>
+          <p>
+            DIENAX ENGINE OIL is focused on delivering reliable lubrication
+            products for automotive fleets, transport operators, workshops,
+            and industrial users.
+          </p>
+          <p>
+            From city traffic to heavy-load logistics, DIENAX helps reduce
+            friction losses and supports consistent engine protection.
+          </p>
         </div>
+
         <aside class="stat-box">
           <h3>Performance Focus</h3>
           <p><strong>99.5%</strong> Batch conformity target</p>
@@ -64,10 +99,13 @@
       </div>
     </section>
 
+    <!-- PRODUCTS -->
     <section id="products" class="section section-alt">
       <div class="container">
         <h2>Product Range</h2>
-        <p class="section-intro">Default section is Engine Oil. Select another section to load its full product lineup.</p>
+        <p class="section-intro">
+          Default section is Engine Oil. Select another section to load its full product lineup.
+        </p>
 
         <div class="product-tabs" role="tablist" aria-label="Product categories">
           <button type="button" class="product-filter-btn active" data-filter="engine" aria-pressed="true">Engine Oil</button>
@@ -75,6 +113,9 @@
           <button type="button" class="product-filter-btn" data-filter="atf" aria-pressed="false">ATF</button>
           <button type="button" class="product-filter-btn" data-filter="brake-fluid" aria-pressed="false">Brake Fluid</button>
         </div>
+
+        <div class="card-grid product-scroll" aria-label="DIENAX product cards">
+          <!-- KEEPING ALL YOUR PRODUCT CARDS EXACTLY SAME -->
 
         <div class="card-grid product-scroll" aria-label="DIENAX product cards">
           <article class="card product-card" data-category="engine" tabindex="0" role="button" aria-expanded="false">
@@ -282,9 +323,9 @@
           <h2>Contact DIENAX</h2>
           <p>For dealership opportunities, bulk orders, or technical assistance, reach out and our team will respond promptly.</p>
           <ul class="contact-list">
-            <li><strong>Email:</strong> sales@dienaxoil.com</li>
-            <li><strong>Phone:</strong> +1 (800) 555-0147</li>
-            <li><strong>Address:</strong> 2450 Industrial Drive, Houston, TX</li>
+            <li><strong>Email:</strong> n.hamedafghanltd@gmail.com</li>
+            <li><strong>Phone:</strong> +93 780 000 837</li>
+            <li><strong>Address:</strong> Etimad Rahimi Market 23 , 24 Number Office , Kandahar , Afghanistan </li>
           </ul>
         </div>
         <form class="contact-form" onsubmit="event.preventDefault(); showThankYou();">
